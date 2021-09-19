@@ -68,9 +68,14 @@
 }
 
 
-.loading-screen h1{
+h1{
 /*     color: white ; */
-    padding-right: 40px;
+    padding: 10px;
     font-family: 'Poppins', sans-serif;
+    position: absolute;
+    z-index: 1;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50% , -50%);
 }
 
